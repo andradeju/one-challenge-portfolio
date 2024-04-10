@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+  /*Insira a variavel das outras cores inspecionando o modelo do figma*/
+  /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+
+  /* COR */
+  --cor-de-fundo: #F5F5F5;
+  --cor-de-link: #000;
+
+  /* FONT */
+  --font-raleway: "Raleway", sans-serif;
+}
