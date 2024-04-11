@@ -11,15 +11,16 @@ de usuário complexa, e permite a reutilização de código existente sem copiar
 Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
 
+
 /*Sessão Menu*/
 
 section.menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between; 
     align-items: center;
     font-family: var(--font-raleway);
     font-weight: 590;
-    padding: 30px 0 0 0;
+    padding: 2% 6%;
 }
 
 .menu a {
@@ -43,13 +44,13 @@ section.menu {
 
 .menu nav { 
     display: flex;
-    gap: 22px;
+    gap: 24px;
 }
 
 .menu__list {
     display: flex;
     justify-content: space-between;
-    gap: 22px; 
+    gap: 24px; 
 }
 
 .menu__list__item {
@@ -64,14 +65,14 @@ section.menu {
 /*Sessão Title*/
 
 section.title{
-    margin: 6% 9%;
+    padding: 4% 6%;
 }
 
 .title__div {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .title__profile {
@@ -91,6 +92,10 @@ section.title{
     font-weight: 700;
     color: var(--cor-de-texto);
     font-family: var(--font-raleway);
+}
+
+.title__bio__destaque {
+    color: var(--cor-destaque);
 }
 
 .title__subsection {
@@ -114,13 +119,40 @@ section.title{
 
 .title__network__item :hover {
     color: var(--cor-destaque);
+    font-size: 18px;
 }
+
+
 /*Sessão About*/
 
 section.about{
-
+    padding: 0 6%;
+    
 }
 
+.about__container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.about__title {
+    font-size: 32px;
+    font-family: var(--font-raleway);
+    font-weight: 600;
+    color: var(--cor-destaque);
+}
+
+.about__paragraph {
+    font-size: 16px;
+    color: var(--cor-de-texto);
+    width: 751px;
+}
+
+
+.about__signature {
+    width: 140px;
+}
 /*Sessão Hobbies*/
 
 section.hobbies{
@@ -162,6 +194,7 @@ utilize como referência os breakpoints @media abaixo*/
         display: block;
     }
 
+
 /*title*/
 
 /*Skills*/
@@ -182,6 +215,8 @@ utilize como referência os breakpoints @media abaixo*/
 /*Titulo*/
 
 /*Sessão sobre*/
+
+
 
 /*Skills*/
 
