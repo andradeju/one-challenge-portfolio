@@ -18,12 +18,16 @@ section.menu {
     justify-content: space-around;
     align-items: center;
     font-family: var(--font-raleway);
-    font-weight: 500;
-    padding: 30px 0 30px 0;
+    font-weight: 590;
+    padding: 30px 0 0 0;
 }
 
 .menu a {
     color: #464646;
+}
+
+.menu a:hover {
+    color: var(--cor-destaque);
 }
 
 .menu header {
@@ -60,9 +64,57 @@ section.menu {
 /*Sessão Title*/
 
 section.title{
+    margin: 6% 9%;
+}
+
+.title__div {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title__profile {
+    width: 368px; 
+    border-radius: 50%;
+}
+
+.title__container {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.title__bio {
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--cor-de-texto);
+    font-family: var(--font-raleway);
+}
+
+.title__subsection {
+    font-size: 22px;
+    color: var(--cor-de-texto);
+    font-weight: 400;
+}
+
+.title__network {
+    display: flex;
+    gap: 22px;
+}
+
+.title__network__item a {
+    font-size: 16px;
+    color: var(--cor-de-texto);
+    text-align: center;
+    transition: background-color 0.3s ease;
 
 }
 
+.title__network__item :hover {
+    color: var(--cor-destaque);
+}
 /*Sessão About*/
 
 section.about{

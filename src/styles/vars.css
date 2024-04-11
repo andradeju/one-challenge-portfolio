@@ -7,6 +7,8 @@
   /* COR */
   --cor-de-fundo: #F5F5F5;
   --cor-de-link: #000;
+  --cor-de-texto: #464646;
+  --cor-destaque: rgb(231, 125, 5);
 
   /* FONT */
   --font-raleway: "Raleway", sans-serif;
