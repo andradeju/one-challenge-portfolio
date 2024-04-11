@@ -157,14 +157,14 @@ section.about{
 
 /*Skills*/
 
-.skills {
+.skills, .academic {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 33px;
     padding: 5% 6%;
 }
 
-.skills__title, .hobbies__title {
+.skills__title, .hobbies__title, .academic__title, .experience__section__title, .formcontato__title {
     font-family: var(--font-raleway);
     font-size: 32px;
     color: var(--cor-destaque);
@@ -211,26 +211,215 @@ section.hobbies{
 
 /* Experiência Acadêmica*/
 
-section.academic{
+.academic__courses {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+}
 
+.academic__courses__box {
+    display: flex;
+    background-color: #ffffff;
+    width: 290px;
+    height: 284px;
+    border-radius: 14px;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px var(--cor-destaque);
+}
+
+.academic__courses__list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    padding: 0 8%;
+}
+
+.academic__courses__item__title {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: var(--font-raleway);
+    text-align: center;
+    color: var(--cor-de-texto);
+}
+
+.academic__courses__item__subtitle, .experience__text {
+    font-family: var(--font-raleway);
+    font-size: 16px;
+    color: var(--cor-de-texto);
 }
 
 /* experiência*/
 
-section.experience{
+.experience {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    padding: 7% 6%;
+}
 
+.experiencie__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experiencie__box__dois {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.experience__img {
+    width: 700px;
+    height: 406px;
+}
+
+.experience__title {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: var(--font-raleway);
+    color: var(--cor-de-texto);
+}
+
+.experience__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5%;
+    gap: 10px;
+    
+}
+
+.experiencia__botao--repo {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-destaque);
+    font-family: var(--font-raleway);
+    text-align: center;
+    border-radius: 8px;
+    padding: 14px;
+    border: 1px solid var(--cor-destaque);
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.experiencia__botao--repo:hover{
+    background-color: var(--cor-destaque);
+    color: #ffffff;
+}
+
+.experiencia__botao--demo {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--cor-destaque);
+    color: #ffffff;
+    font-family: var(--font-raleway);
+    text-align: center;
+    border-radius: 8px;
+    padding: 14px;
+    border: 1px solid var(--cor-destaque);
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.experiencia__botao--demo:hover{
+    background-color: transparent;
+    color: var(--cor-destaque);
+}
+
+.experience__description {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
 }
 
 /*Contato*/
 
 section.formcontato{
+    padding: 4% 6%;
+}
 
+.formcontato__contacto {
+    display: flex;
+    gap: 18px;
+}
+
+.formcontato__text {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.formcontato__subtext {
+    font-size: 16px;
+    font-family: var(--font-raleway);
+    color: var(--cor-de-texto);
+}
+
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.formcontato__input, .formcontato__textarea {
+    border-radius: 8px;
+    padding: 2%;
+
+}
+
+.formcontato__botao {
+    font-size: 16px;
+    font-weight: 400;
+    width: 40%;
+    background-color: var(--cor-destaque);
+    color: #ffffff;
+    font-family: var(--font-raleway);
+    text-align: center;
+    border-radius: 8px;
+    padding: 14px;
+    border: 1px solid var(--cor-destaque);
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.formcontato__botao:hover {
+    background-color: transparent;
+    color: var(--cor-destaque);
 }
 
 /*footeer*/
 
-section.footer{
+.footer {
+    background-color: var(--cor-destaque);
+    padding: 18px;
+    text-align: center;
+}
 
+.footer__rodape {
+    color: #0b0101;
+    font-family: var(--font-raleway);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.footer__txt {
+    color: var(--cor-quaternaria);
+    font-weight: 400; 
+    font-family: var(--fonte-secundaria);
+    font-size: 0.75rem;
+    margin-top: 10px;
 }
 
 /* Chegou a hora de se desafiar com a responsividade, 
@@ -265,6 +454,10 @@ utilize como referência os breakpoints @media abaixo*/
 /*Menu*/
 
 /*Titulo*/
+
+
+
+
 
 /*Sessão sobre*/
 
