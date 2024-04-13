@@ -22,7 +22,7 @@ Este projeto foi desenvolvido como parte do Desafio do Programa Oracle One | Fro
 <br>
 
 ## 🚀 Deploy do Site
-O site está disponível online, clique aqui: **[Juliana Andrade | POrtfolio](https://one-challenge-portfolio-three.vercel.app/)** <br>
+O site está disponível online, clique aqui: **[Juliana Andrade | Portfolio](https://one-challenge-portfolio-three.vercel.app/)** <br>
 Visite o link para explorar as funcionalidades.
 
 ## ⌨️ Rodando o Projeto Localmente
@@ -32,9 +32,7 @@ Visite o link para explorar as funcionalidades.
 git clone https://github.com/andradeju/one-challenge-portfolio.git
 ```   
 
-<p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/168887837-b6d26532-6782-48dc-92eb-e48bf6c57a15.png">
-</p>
+
 
 
 
